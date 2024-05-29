@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"os"
+	"path/filepath"
 )
 
 func main() {
@@ -13,6 +14,11 @@ func main() {
 	}
 
 	arguments := os.Args[1:]
+
+	if filepath.Ext(arguments[0]) != ".txt" || filepath.Ext(arguments[1]) != ".txt" {
+		fmt.Println("Error! Incorrect file extension.")
+    return
+	}
 
 	// inputFile stores the contents of the read file 
 	inputFile, err := os.ReadFile(arguments[0])
