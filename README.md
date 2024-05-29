@@ -16,11 +16,11 @@ https://go.dev/dl/
 Follow the steps below using terminal commands to install the project on your local environment:
 1. Clone the repository
 ```
-git clone https://github.com/johneliud/file-reader-tool.git
+git clone https://github.com/johneliud/File-Reader-Tool.git
 ```
 2. Change path to the cloned directory
 ```
-cd file-reader-tool
+cd File-Reader-Tool
 ```
 
 ## Usage
@@ -37,24 +37,6 @@ The program is expected to display an error if the number of arguments passed to
 ## Contributing
 Contributions to improving the project are accepted and greatly appreciated.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue.
-
-1. Fork the Project
-2. Create your Feature Branch
-```
-git checkout -b feature/Feature
-```
-3. Commit your Changes
-```
-git commit -m 'Feature'
-```
-4. Push to the Branch
-```
-git push origin feature/Feature
-```
-5. Open a Pull Request
-
 ## Contact
 Incase of further enquiries, kindly reach out to:
 - Email: johneliud4@gmail.com
-- Name: John E. Odhiambo
