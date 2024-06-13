@@ -1,14 +1,13 @@
 ## About The Project
-This tool simplifies the process of reading and copying the contents from one file to another and is a lightweight utility. It offers a straightforward solution for file manipulation.
+This tool simplifies the process of reading and copying the contents from an input file to an output file.
 
 ## Built With
 Go programming language also known as Golang was the technology used to build this tool. Below are a few reasons as to why Golang was settled on:
 - Lightweight
-- Standard library
 - Efficiency
 
 ## Getting Started
-To have the program running in your local environment, you will need to have Go programming language installed. Click on the link below to install Golang:
+You will need to have Go programming language installed on your local environment to run the program. Click on the link below to install Golang:
 
 https://go.dev/dl/
 
@@ -24,15 +23,20 @@ cd File-Reader-Tool
 ```
 
 ## Usage
-Running the program is super easy. Take note of the instruction below
+Running the program is easy. Take note of the instruction below
 - You have to define three commands when running the program from the terminal
 1. File to be executed
 2. File to read from
-3. File to written
+3. File to write to
 ```
-go run . input-file.txt output-file.txt
+go run . input.txt output.txt
 ```
-The program is expected to display an error if the number of arguments passed to it is not three. By running the above command, contents of input-file.txt will be read, copied and written to a new file specified as output-file.txt.
+
+[![View](</home/john/Pictures/Screenshot from 2024-06-13 21-39-39.png>)]
+
+[![View](</home/john/Pictures/Screenshot from 2024-06-13 21-28-29.png>)]
+
+The program will display an error if the number of arguments passed to it is not three. By running the above command, contents of input.txt will be read, copied and written to a new file specified as output.txt.
 
 ## Contributing
 Contributions to improving the project are accepted and greatly appreciated.
